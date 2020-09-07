@@ -1,0 +1,7 @@
+{
+  "name": "WasteManagement",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
