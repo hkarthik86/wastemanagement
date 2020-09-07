@@ -1,0 +1,103 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>DETAILS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" size-md="5" size-lg="5">
+        <ion-item>
+          <ion-label position="floating" class="labelForInput">DATE</ion-label>
+          <ion-datetime placeholder="Select Date" [(ngModel)]="date"></ion-datetime>
+         </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" size-md="5" size-lg="5">
+        <ion-item>
+          <ion-label position="floating">DRIVER NAME</ion-label>
+          <ion-input type="text"  [(ngModel)]="driverName"></ion-input>
+         </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" size-md="5" size-lg="5">
+        <ion-item>
+          <ion-label position="floating">Vehicle Number</ion-label>
+          <ion-input type="text"  [(ngModel)]="vehicleNumber"></ion-input>
+         </ion-item>
+      </ion-col>
+    </ion-row>
+sasas
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" size-md="5" size-lg="5">
+        <ion-item>
+          <ion-label position="floating">Plastic</ion-label>
+          <ion-input type="text"  [(ngModel)]="plastic"></ion-input>
+         </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" size-md="5" size-lg="5">
+        <ion-item>
+          <ion-label position="floating">Tin Can</ion-label>
+          <ion-input type="text"  [(ngModel)]="tincan"></ion-input>
+         </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" size-md="5" size-lg="5">
+        <ion-item>
+          <ion-label position="floating">Metal</ion-label>
+          <ion-input type="text"  [(ngModel)]="metal"></ion-input>
+         </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" size-md="5" size-lg="5">
+        <ion-item>
+          <ion-label position="floating">Mix Recy</ion-label>
+          <ion-input type="text"  [(ngModel)]="mixrecy"></ion-input>
+         </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" size-md="5" size-lg="5">
+        <ion-item>
+          <ion-label position="floating">Paper</ion-label>
+          <ion-input type="text"  [(ngModel)]="paper"></ion-input>
+         </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" size-md="5" size-lg="5">
+        <ion-item>
+          <ion-label position="floating">Card Board</ion-label>
+          <ion-input type="text"  [(ngModel)]="cardboard"></ion-input>
+         </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" size-md="5" size-lg="5">
+        <ion-item>
+          <ion-label position="floating">Total</ion-label>
+          <ion-input type="text"  [(ngModel)]="total"></ion-input>
+         </ion-item>
+      </ion-col>
+    </ion-row>
+
+      <ion-row class="ion-align-items-center">
+        <ion-col  >
+          <ion-button (click)="submit()" class="grad-color">SUBMIT</ion-button>
+        </ion-col>
+      </ion-row>
+  </ion-grid>
+</ion-content>
