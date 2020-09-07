@@ -1,0 +1,13 @@
+.imageThumbnail {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+ion-card:hover {
+    background-color: rgba($color: #04820c, $alpha: 0.8);
+    color: white;
+
+    ion-card-title,ion-card-subtitle {
+        --color: white;
+    }
+}

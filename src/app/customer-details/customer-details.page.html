@@ -7,96 +7,101 @@
 <ion-content>
   <ion-grid>
     <ion-row class="ion-align-items-center">
-      <ion-col size="12" size-md="5" size-lg="5">
+      <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
         <ion-item>
-          <ion-label position="floating" class="labelForInput">DATE</ion-label>
-          <ion-datetime placeholder="Select Date" [(ngModel)]="date"></ion-datetime>
+          <ion-label position="fixed" class="labelForInput labelInsideInput">Date</ion-label>
+          <ion-datetime placeholder="Select Date" class="inputWithLabel" [(ngModel)]="date"></ion-datetime>
          </ion-item>
       </ion-col>
     </ion-row>
     <ion-row class="ion-align-items-center">
-      <ion-col size="12" size-md="5" size-lg="5">
+      <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
         <ion-item>
-          <ion-label position="floating">DRIVER NAME</ion-label>
-          <ion-input type="text"  [(ngModel)]="driverName"></ion-input>
+          <ion-label position="fixed" class="labelForInput labelInsideInput">Driver Name</ion-label>
+          <ion-input type="text" class="inputWithLabel"  [(ngModel)]="driverName"></ion-input>
          </ion-item>
       </ion-col>
     </ion-row>
     <ion-row class="ion-align-items-center">
-      <ion-col size="12" size-md="5" size-lg="5">
+      <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
         <ion-item>
-          <ion-label position="floating">Vehicle Number</ion-label>
-          <ion-input type="text"  [(ngModel)]="vehicleNumber"></ion-input>
+          <ion-label position="fixed" class="labelForInput labelInsideInput">Vehicle Number</ion-label>
+          <ion-input type="text" class="inputWithLabel"  [(ngModel)]="vehicleNumber"></ion-input>
          </ion-item>
       </ion-col>
     </ion-row>
-sasas
+
+    <ion-row>
+      <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
+        <h3>WASTE PICKUP</h3>
+      </ion-col>
+    </ion-row>
     <ion-row class="ion-align-items-center">
-      <ion-col size="12" size-md="5" size-lg="5">
+      <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
         <ion-item>
-          <ion-label position="floating">Plastic</ion-label>
-          <ion-input type="text"  [(ngModel)]="plastic"></ion-input>
+          <ion-label position="fixed" class="labelForInput labelInsideInput">Plastic</ion-label>
+          <ion-input type="text" class="inputWithLabel" [(ngModel)]="plastic"></ion-input>
          </ion-item>
       </ion-col>
     </ion-row>
 
     <ion-row class="ion-align-items-center">
-      <ion-col size="12" size-md="5" size-lg="5">
+      <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
         <ion-item>
-          <ion-label position="floating">Tin Can</ion-label>
-          <ion-input type="text"  [(ngModel)]="tincan"></ion-input>
+          <ion-label position="fixed" class="labelForInput labelInsideInput">Tin Can</ion-label>
+          <ion-input type="text" class="inputWithLabel" [(ngModel)]="tincan"></ion-input>
          </ion-item>
       </ion-col>
     </ion-row>
 
     <ion-row class="ion-align-items-center">
-      <ion-col size="12" size-md="5" size-lg="5">
+      <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
         <ion-item>
-          <ion-label position="floating">Metal</ion-label>
-          <ion-input type="text"  [(ngModel)]="metal"></ion-input>
+          <ion-label position="fixed" class="labelForInput labelInsideInput">Metal</ion-label>
+          <ion-input type="text" class="inputWithLabel" [(ngModel)]="metal"></ion-input>
          </ion-item>
       </ion-col>
     </ion-row>
 
     <ion-row class="ion-align-items-center">
-      <ion-col size="12" size-md="5" size-lg="5">
+      <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
         <ion-item>
-          <ion-label position="floating">Mix Recy</ion-label>
-          <ion-input type="text"  [(ngModel)]="mixrecy"></ion-input>
+          <ion-label position="fixed" class="labelForInput labelInsideInput">Mix Recy</ion-label>
+          <ion-input type="text" class="inputWithLabel" [(ngModel)]="mixrecy"></ion-input>
          </ion-item>
       </ion-col>
     </ion-row>
 
     <ion-row class="ion-align-items-center">
-      <ion-col size="12" size-md="5" size-lg="5">
+      <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
         <ion-item>
-          <ion-label position="floating">Paper</ion-label>
-          <ion-input type="text"  [(ngModel)]="paper"></ion-input>
+          <ion-label position="fixed" class="labelForInput labelInsideInput">Paper</ion-label>
+          <ion-input type="text" class="inputWithLabel" [(ngModel)]="paper"></ion-input>
          </ion-item>
       </ion-col>
     </ion-row>
 
     <ion-row class="ion-align-items-center">
-      <ion-col size="12" size-md="5" size-lg="5">
+      <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
         <ion-item>
-          <ion-label position="floating">Card Board</ion-label>
-          <ion-input type="text"  [(ngModel)]="cardboard"></ion-input>
+          <ion-label position="fixed" class="labelForInput labelInsideInput">Card Board</ion-label>
+          <ion-input type="text" class="inputWithLabel" [(ngModel)]="cardboard"></ion-input>
          </ion-item>
       </ion-col>
     </ion-row>
 
     <ion-row class="ion-align-items-center">
-      <ion-col size="12" size-md="5" size-lg="5">
+      <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
         <ion-item>
-          <ion-label position="floating">Total</ion-label>
-          <ion-input type="text"  [(ngModel)]="total"></ion-input>
+          <ion-label position="fixed" class="labelForInput labelInsideInput">Total</ion-label>
+          <ion-input type="text" class="inputWithLabel" [(ngModel)]="total"></ion-input>
          </ion-item>
       </ion-col>
     </ion-row>
 
       <ion-row class="ion-align-items-center">
-        <ion-col  >
-          <ion-button (click)="submit()" class="grad-color">SUBMIT</ion-button>
+        <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
+          <ion-button (click)="submit()" class="grad-color rightAlign" color="success">SUBMIT</ion-button>
         </ion-col>
       </ion-row>
   </ion-grid>

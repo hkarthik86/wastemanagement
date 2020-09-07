@@ -9,16 +9,16 @@
 <ion-content [fullscreen]="true">
     <ion-grid>
       <ion-row class="ion-align-items-center">
-        <ion-col size="12" size-md="5" size-lg="5">
+        <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6">
           <ion-item>
-            <ion-label position="floating" class="labelForInput">DRIVER ID</ion-label>
-            <ion-input type="text"  maxlength="30" [(ngModel)]="driverId"></ion-input>
+            <ion-label position="fixed" class="labelForInput labelInsideInput">DRIVER ID</ion-label>
+            <ion-input type="text"  maxlength="30" class="inputWithLabel" [(ngModel)]="driverId"></ion-input>
           </ion-item>
         </ion-col>
         </ion-row>
         <ion-row class="ion-align-items-center">
-          <ion-col  >
-            <ion-button (click)="searchDriver()" class="grad-color">SEARCH</ion-button>
+          <ion-col size="12" offset-md="3" size-md="6" offset-lg="3" size-lg="6" >
+            <ion-button (click)="searchDriver()" class="grad-color rightAlign" color="success">SEARCH</ion-button>
           </ion-col>
         </ion-row>
     </ion-grid>

@@ -24,3 +24,59 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+
+:root{
+    body {
+        ion-toolbar {
+            --background: var(--ion-color-success);
+            color: var(--ion-color-primary-contrast);
+
+            ion-title {
+                background-color: transparent;
+                text-align: center;
+            }
+        }
+
+        ion-content {
+            --padding-start: 10px;
+            --padding-end: 10px;
+
+            ion-item {
+                --padding-start: 0;
+                --inner-padding-end: 0;
+                --border-width: 0;
+                --inner-border-width: 0;
+
+                ion-datetime{
+                    width: 100%;
+                }
+    
+                .labelInsideInput {
+                    background-color: #289e30;
+                    color: white;
+                    width: fit-content;
+                    text-align: center;
+                    padding-top: 13px;
+                    padding-bottom: 13px;
+                    border: solid 1px var(--ion-color-medium-tint);
+                    border-radius: 5px 0 0 5px;
+                    font-size: 12px;
+                    text-transform: capitalize;
+                }
+                
+                .inputWithLabel {
+                    border: solid 1px var(--ion-color-medium-tint);
+                    border-radius: 0 5px 5px 0;
+                }
+            } 
+        }
+
+        ion-button.rightAlign {
+            float: right;
+        }
+    }
+}
+
+
